@@ -7,6 +7,9 @@
 
 The apple emoji-set for NodeBB.
 
+![preview](https://raw.githubusercontent.com/NodeBB-Community/nodebb-plugin-emoji-apple/master/public/static/preview.png)
+Preview the complete set at: http://www.emoji-cheat-sheet.com/
+
 ## Installation
 
 Install and activate `nodebb-plugin-emoji-extended` and `nodebb-plugin-emoji-apple` via the admin control panel of your NodeBB instance.
