@@ -7,9 +7,7 @@
 
 The apple emoji-set for NodeBB.
 
-![preview](https://raw.githubusercontent.com/NodeBB-Community/nodebb-plugin-emoji-apple/master/public/static/preview.png)
-
-Preview the complete set at: http://www.emoji-cheat-sheet.com/
+Preview the set at: http://www.emoji-cheat-sheet.com/
 
 ## Installation
 
