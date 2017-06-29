@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/npm/dm/nodebb-plugin-emoji-apple.svg)](https://www.npmjs.com/package/nodebb-plugin-emoji-apple)
 [![Dependency Status](https://david-dm.org/NodeBB-Community/nodebb-plugin-emoji-apple.svg)](https://david-dm.org/NodeBB-Community/nodebb-plugin-emoji-apple)
 
-The apple emoji-set for NodeBB.
+The Apple emoji-set for NodeBB. Apple Color Emoji license terms are unknown. Use at own risk.
 
 Preview the set at: http://www.emoji-cheat-sheet.com/
 
@@ -18,7 +18,3 @@ Install and activate `nodebb-plugin-emoji-extended` and `nodebb-plugin-emoji-app
 The manual installation via [NPM](https://www.npmjs.com/) may result in version-conflicts with NodeBB.
 
     npm install nodebb-plugin-emoji-extended nodebb-plugin-emoji-apple
-
-## Development
-
-This module gets developed using the [NodeBB Grunt](https://github.com/NodeBB-Community/nodebb-grunt) Framework.

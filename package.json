@@ -1,38 +1,33 @@
 {
   "name": "nodebb-plugin-emoji-apple",
-  "version": "1.0.4+@{build}",
+  "version": "2.0.0",
   "description": "The apple emoji-set for NodeBB (requires nodebb-plugin-emoji-extended)",
-  "main": "lib/controller.js",
+  "main": "emoji.js",
   "author": "Ole Reglitzki <frissdiegurke@protonmail.com> (https://github.com/frissdiegurke)",
   "contributors": [
-    "Ole Reglitzki <frissdiegurke@protonmail.com> (https://github.com/frissdiegurke)"
+    "Ole Reglitzki <frissdiegurke@protonmail.com> (https://github.com/frissdiegurke)",
+    "Peter Jaszkowiak <p.jaszkow@gmail.com> (https://github.com/pitaj)"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB-Community/@{name}.git"
+    "url": "https://github.com/NodeBB-Community/nodebb-plugin-emoji-apple.git"
   },
   "nbbpm": {
-    "id": "@{id}",
     "name": "Emoji Apple",
-    "type": "@{type.name}",
-    "compatibility": "^1.0.0"
+    "compatibility": "^1.5.1"
   },
   "keywords": [
     "nodebb",
-    "@{type.name}",
-    "emoji-apple"
+    "plugin",
+    "emoji",
+    "apple"
   ],
-  "dependencies": {
-    "adm-zip": "^0.4.7",
-    "lodash": "^4.3.0",
-    "q": "^1.4.1",
-    "semver": "^5.1.0",
-    "wrench": "^1.5.8"
-  },
   "peerDependencies": {
-    "nodebb-plugin-emoji-extended": "^1.0.0",
-    "nconf": "*",
-    "winston": "*"
+    "nodebb-plugin-emoji-extended": "^2.0.0"
+  },
+  "dependencies": {
+    "emoji-datasource-apple": "^3.0.0",
+    "lodash.frompairs": "^4.0.1"
   }
 }
