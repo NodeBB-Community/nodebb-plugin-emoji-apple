@@ -11,10 +11,10 @@ Preview the set at: http://www.emoji-cheat-sheet.com/
 
 ## Installation
 
-Install and activate `nodebb-plugin-emoji-extended` and `nodebb-plugin-emoji-apple` via the admin control panel of your NodeBB instance.
+Install and activate `nodebb-plugin-emoji` and `nodebb-plugin-emoji-apple` via the admin control panel of your NodeBB instance.
 
 ### Manual installation
 
 The manual installation via [NPM](https://www.npmjs.com/) may result in version-conflicts with NodeBB.
 
-    npm install nodebb-plugin-emoji-extended nodebb-plugin-emoji-apple
+    npm install nodebb-plugin-emoji@2 nodebb-plugin-emoji-apple@2
