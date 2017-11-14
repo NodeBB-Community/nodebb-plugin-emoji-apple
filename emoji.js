@@ -2,7 +2,7 @@ const path = require('path');
 const fromPairs = require('lodash.frompairs');
 const emoji = require('emoji-datasource-apple/emoji');
 
-function defineEmoji(callback) {
+function defineEmoji(data, callback) {
   const pairs = emoji.filter(e => e.has_img_apple).map((e) => {
     const name = e.short_name;
     const aliases = e.short_names.slice(1);
@@ -28,9 +28,10 @@ function defineEmoji(callback) {
 
   const dictionary = fromPairs(pairs);
 
-  callback(null, {
+  data.packs.push({
     name: 'Apple',
     id: 'apple',
+    path: __dirname,
     attribution: 'From <a href="https://github.com/iamcal/emoji-data" target="_blank" rel="noopener">iamcal/emoji-data on Github</a>',
     license: 'Copyright © Apple Inc. License terms unknown. Use at own risk.',
     mode: 'images',
@@ -39,6 +40,8 @@ function defineEmoji(callback) {
     },
     dictionary,
   });
+
+  callback(null, data);
 }
 
-module.exports = defineEmoji;
+module.exports.defineEmoji = defineEmoji;
